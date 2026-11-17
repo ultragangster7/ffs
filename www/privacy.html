@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fox Off — Zero-Trust Privacy Policy</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    :root {
+      --bg: #fff7f9;
+      --card-bg: #ffffff;
+      --text: #3b0d1e;
+      --text-muted: #881337;
+      --brand: #e11d48;
+      --brand-hover: #be123c;
+      --border: #fecdd3;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #f8fafc;
+        --text-muted: #f43f5e;
+        --brand: #fb7185;
+        --brand-hover: #f43f5e;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    .top-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--brand);
+      font-weight: 700;
+      font-size: 1.15rem;
+    }
+
+    .brand-link img {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--brand);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .back-btn:hover {
+      background: var(--brand);
+      color: #fff;
+    }
+
+    h1 {
+      color: var(--brand);
+      font-size: 2rem;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .effective-date {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+
+    .badge-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 24px 0;
+      box-shadow: 0 4px 12px rgba(225, 29, 72, 0.04);
+    }
+
+    .badge-card h3 {
+      color: var(--brand);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    p { margin-bottom: 16px; }
+
+    ul {
+      margin: 12px 0 20px 24px;
+    }
+
+    li { margin-bottom: 8px; }
+
+    strong { color: var(--brand); }
+
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-nav">
+    <a href="index.html" class="brand-link">
+      <img src="icon-192.png" alt="Fox Off logo">
+      Fox Off
+    </a>
+    <a href="index.html" class="back-btn">← Back to Purifier</a>
+  </div>
+
+  <h1>Privacy Policy for Fox Off</h1>
+  <div class="effective-date">Effective Date: November 2026 · Version 1.0</div>
+
+  <div class="badge-card">
+    <h3>🛡️ Zero-Trust Architecture Guarantee</h3>
+    <p><strong>Fox Off</strong> (For Fox Sake) is engineered from the ground up with an absolute zero-trust privacy-by-design policy. We believe content purifiers should never become content eavesdroppers.</p>
+  </div>
+
+  <h2>1. No Data Collection or Transmission</h2>
+  <p>We do not collect, store, transmit, log, or sell any of the following:</p>
+  <ul>
+    <li>Personal data or device identifiers.</li>
+    <li>Browsing history, requested URLs, or page contents.</li>
+    <li>Telemetry, analytics, or behavioral cookies.</li>
+    <li>IP addresses or user interaction logs.</li>
+  </ul>
+
+  <h2>2. 100% Client-Side Local Execution</h2>
+  <p>All webpage sanitization, tracker defusing, ad removal, and typography reformatting occur <strong>strictly on your device</strong> inside an isolated, read-only client-side sandbox.</p>
+  <p>No webpage HTML or input text is sent to our servers. Any external fetch requests you make to purify a URL run directly from your browser or client runtime.</p>
+
+  <h2>3. Zero Accounts &amp; Zero Tracking</h2>
+  <p>Fox Off requires no sign-up, no login, and no user accounts. The app operates completely standalone as a Progressive Web App (PWA) and mobile hybrid application.</p>
+
+  <h2>4. Local Storage Only</h2>
+  <p>If you choose to use the "Save for Offline" feature or customize your reader preferences (such as font size, family, or color theme), those preferences are saved exclusively within your local browser storage (<code>localStorage</code>) and never leave your device.</p>
+
+  <h2>5. Contact Us</h2>
+  <p>If you have any questions or feedback regarding our privacy practices, please contact us at:</p>
+  <p><strong>support@foxoff.app</strong> or open an issue on GitHub.</p>
+
+  <div class="footer">
+    Fox Off / For Fox Sake (FFS) · Zero-Trust Web Content Purifier · Client-side protection
+  </div>
+</body>
+</html>
